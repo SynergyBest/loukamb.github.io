@@ -4,11 +4,31 @@
 		<style>
 			body
 			{
+				background-color: black;
 				background-image: url(bg.jpg);
 				background-repeat: repeat;
 				height: 100%;
   				display: grid;
   				margin: 0;
+			}
+
+			#videobcg 
+			{ 
+				position: absolute;
+				top: 0px;
+				left: 0px;
+				min-width: 100%;
+				min-height: 100%;
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				z-index: -1000;
+				overflow: hidden;
+				-webkit-filter: blur(125px) brightness(30%);
+				-moz-filter: blur(125px) brightness(30%);
+				-o-filter: blur(125px) brightness(30%);
+				-ms-filter: blur(125px) brightness(30%);
+				filter: blur(125px) brightness(30%);
 			}
 
 			center
@@ -18,6 +38,7 @@
 
 			img.logo
 			{
+				width: 550px;
 				margin-bottom: 60px;
 			}
 
@@ -49,7 +70,7 @@
 
 			p.nonot
 			{
-				color: rgb(180, 180, 180);
+				color: rgb(200, 200, 200);
 				font-family: monospace;
 				font-size: 16px;
 			}
@@ -80,8 +101,10 @@
 	</head>
 
 	<body>
+		<video src="bg.mp4" type="video/mp4" id="videobcg" autoplay muted>
+		</video>
 		<center>
-			<img class="logo" src="xicon_white.png"/><br/>
+			<img class="logo" src="logo.png"/><br/>
 			<p class="nonot">By purchasing the software, you hereby agree to the <a href="https://yar.vin/Contract.pdf">Terms and Conditions</a>. If you do not agree with the Terms and Conditions, please refrain from purchasing and/or using the software.</p>
 			<p class="nonot">Enjoy a 25% discount when paying with cryptocurrency! Pay <b>15$</b> instead of 20$. Click <a href="https://blockgeeks.com/guides/what-is-cryptocurrency/" target="_blank">here</a> to learn about cryptocurrency and <a href="https://cointelegraph.com/news/how-and-where-to-buy-cryptocurrency-overview" target="_blank">here</a> to learn how to buy it.</p>
 			<p class="nonot"><b>Steam</b> and <b>Amazon</b> cards are now accepted! We only accept <b>American</b> and <b>Canadian</b> cards, worth 20$. Activation can take up to 48-72 hours.</p>
@@ -92,13 +115,13 @@
 					<img class="fuck" src="credit.png"/>
 				</a>
 				<a href="https://selly.gg/p/9e44c307"><img class="fuck" src="crypto.png"/></a>
+				<a href="https://donaldjtrump.io/synapi/purchase?type=a"><img class="fuck" src="amazon.png"/></a>
 				<a href="https://synapsegp.myshopify.com/products/synapse-x-license">
 					<img class="fuck2" src="apay.png"/>
 				</a>
 				<a href="https://synapsegp.myshopify.com/products/synapse-x-license">
 					<img class="fuck2" src="gpay.png"/>
 				</a>
-				<a href="https://donaldjtrump.io/synapi/purchase?type=a"><img class="fuck" src="amazon.png"/></a>
 				<a href="https://donaldjtrump.io/synapi/purchase?type=s"><img class="fuck" src="steam.png"/></a>
 				<br/>
 			</div><br/><br/><br/>
