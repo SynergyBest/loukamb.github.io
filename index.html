@@ -4,7 +4,7 @@
 		<style>
 			body
 			{
-				background-color: black;
+				background-color: rgb(34, 53, 26);
 				background-image: url(bg.jpg);
 				background-repeat: repeat;
 				background-size: cover;
@@ -20,7 +20,7 @@
 
 			img.logo
 			{
-				height: 25vh;
+				height: 15vh;
 			}
 
 			a 
@@ -29,17 +29,7 @@
 				text-align: center;
 				font-size: 1.1vh;
 				font-family: monospace;
-			}
-
-			.button_pay
-			{
-				background-color: #FF4500;
-				margin-right: 10px;
-			}
-
-			.button_dl
-			{
-				background-color: rgb(0, 50, 180);
+				text-shadow: 2px 2px #000000;
 			}
 
 			p.check
@@ -47,13 +37,14 @@
 				color: rgb(180, 180, 180);
 				font-family: monospace;
 				font-size: 0.8vh;
+				text-shadow: 2px 2px #000000;
 			}
 
 			p.nonot
 			{
-				color: rgb(200, 200, 200);
+				color: rgb(255, 255, 255);
 				font-family: monospace;
-				font-size: 1.1vh;
+				font-size: 1.2vh;
 				text-align: justify;
 				max-width: 400px;
 				text-shadow: 2px 2px #000000;
@@ -80,13 +71,20 @@
 				margin-right: 25px;
 				margin-bottom: 25px;
 			}
+
+			center.darken 
+			{
+				background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)); inherit;
+				box-shadow: 0 0 25px;
+			}
+
 		</style>
 		<title>S^X</title>
 	</head>
 
 	<body>
-		<center>
-			<img class="logo" src="logo.png"/>
+		<center class="darken">
+			<img class="logo" src="siglogo.png"/><br/>
 			<p class="nonot">By purchasing the software, you hereby agree to the <a href="https://yar.vin/Contract.pdf">Terms and Conditions</a>. If you do not agree with the Terms and Conditions, please refrain from purchasing and/or using the software.</p>
 			<p class="nonot">Enjoy a 25% discount when paying with cryptocurrency! Pay <b>15$</b> instead of 20$. Click <a href="https://blockgeeks.com/guides/what-is-cryptocurrency/" target="_blank">here</a> to learn about cryptocurrency and <a href="https://cointelegraph.com/news/how-and-where-to-buy-cryptocurrency-overview" target="_blank">here</a> to learn how to buy it.</p>
 			<p class="nonot">We only accept <b>American</b> and <b>Canadian</b> gift cards, worth 20$. Activation can take up to 48-72 hours.</p>
