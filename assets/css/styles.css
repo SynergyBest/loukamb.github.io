@@ -3,12 +3,12 @@
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/PermanentMarker-Regular.tff') format('tff');
+    src: url('../fonts/PermanentMarker-Regular.tff') format('truetype');
 }
 @font-face {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src: url('../fonts/Raleway-Regular.tff') format('tff');
+    src: url('../fonts/Raleway-Regular.tff') format('truetype');
 }
